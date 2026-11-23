@@ -19,7 +19,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir -p /tmp/pedoniq-source
-          unzip -q PedonIQ_Android_Build_Ready.zip -d /tmp/pedoniq-source
+          unzip -q PedonIQ_Android_1.4.0_Expert_Analysis.zip -d /tmp/pedoniq-source
           cp -R /tmp/pedoniq-source/. .
 
       - name: Set up Java
